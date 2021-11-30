@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+body {
+  width: 1200px;
+  height: 600px;
+  overflow: hidden;
+  --primary: #3f7cee;
+  --title: #2f363d;
+  --text: #6e7681;
+}
+main {
+  position: relative;
+}
+.content {
+  height: 100%;
+  position: relative;
+  padding: 60px;
+  display: flex;
+}
+.data {
+  width: 75%;
+}
+h1,
+p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.02;
+}
+h1 {
+  color: var(--title);
+  font-size: 70px;
+  font-weight: 700;
+  -webkit-line-clamp: 2;
+  margin-bottom: 30px;
+}
+p {
+  color: var(--text);
+  font-size: 30px;
+  line-height: 1.5;
+  -webkit-line-clamp: 3;
+}
+svg {
+  margin-bottom: 20px;
+}
+span {
+  position: absolute;
+  color: var(--primary);
+  bottom: 0;
+  right: 0;
+  font-weight: 700;
+  font-size: 30px;
+  margin-right: 60px;
+  margin-bottom: 20px;
+}
+.line {
+  background-color: var(--primary);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 1200px;
+  height: 35px;
+}
+.image {
+  width: 35%;
+  height: calc(100% - 30px);
+}
+.image img {
+  width: 100%;
+  height: calc(100% - 30px);
+}

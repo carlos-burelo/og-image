@@ -1,0 +1,12 @@
+{
+  "name": "og-image",
+  "version": "1.0.0",
+  "main": "api/index.js",
+  "repository": "https://github.com/carlos-burelo/og-image",
+  "author": "carlos-burelo <carlosfernandoburelo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chrome-aws-lambda": "^10.1.0",
+    "puppeteer-core": "^11.0.0"
+  }
+}
