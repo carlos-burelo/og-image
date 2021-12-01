@@ -16,7 +16,7 @@ function getHtml(parsedReq) {
                 </p>
             </div>
             <div class="image">
-                <img src="https://carlosburelo.tk/_next/image?url=%2Fuser.webp&w=1920&q=75" alt="">
+                <img src="https://carlosburelo.tk/_next/image?url=%2Fimages%2Fuser.webp&w=640&q=75" alt="">
             </div>
         </div>
         <span>@CarlosBurelo</span>
